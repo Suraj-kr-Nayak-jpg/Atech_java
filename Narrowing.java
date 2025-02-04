@@ -5,3 +5,4 @@ public class Narrowing {
         System.out.println(num);
     }
 }
+
