@@ -9,6 +9,7 @@ public class Take_input {
         float b = sc.nextFloat();
         System.out.println("Enter the string value");
         String c = sc.next();
+        sc.close();
         System.out.println("int" +a);
         System.out.println("float" +b);
         System.out.println("string" +c);
