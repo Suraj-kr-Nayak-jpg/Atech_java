@@ -7,8 +7,7 @@ public class Recursion_natural_number {
         int a = sc.nextInt();
         System.out.println("The natural is "+ natural(a));
     }
-
-    public static int natural(int a) {
+       public static int natural(int a) {
         if (a==0) {
             return 0;
         } else {
