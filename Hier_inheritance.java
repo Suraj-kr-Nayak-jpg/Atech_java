@@ -1,6 +1,6 @@
 public class Hier_inheritance {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        dog d = new dog();
         d.sound("Bhaw");
         Cat c = new Cat();
         c.sound("meow");
@@ -12,7 +12,7 @@ class animal{
 
     }
 }
-class Dog extends animal{
+class dog extends animal{
 
 }
 class Cat extends animal{
